@@ -18,7 +18,7 @@ const SOCIALS: Socials = {
         },
         {
             "name": "GitHub",
-            "link": "https://github.com/kvba0000"
+            "link": "https://github.com/kvba5"
         },
         {
             "name": "Bluesky",
@@ -41,7 +41,7 @@ const SOCIALS: Socials = {
         },
         {
             "name": "Telegram",
-            "link": "https://t.me/kvba0000"
+            "link": "https://t.me/kvba5"
         },
         {
             "name": "Keybase",
