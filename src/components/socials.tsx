@@ -14,7 +14,7 @@ const SOCIALS: Socials = {
     "socials": [
         {
             "name": "YouTube",
-            "link": "https://youtube.com/@kvba0000"
+            "link": "https://youtube.com/@kvba5yt"
         },
         {
             "name": "GitHub",
