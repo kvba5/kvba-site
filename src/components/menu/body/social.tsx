@@ -22,14 +22,13 @@ const formatEntry = (type: string, ...data: string[]): { text: string, onClick: 
     }
     
     const link = LINKS.get(type)
-    if (!link) return {
-        text: typeToReadable(type),
-        onClick: () => {
+    return {
+        text: data[0],
+        onClick: link ? `https://${link}/${data[0]}` : () => {
             navigator.clipboard.writeText(data[0])
             alert("Copied!")
         }
     }
-    return { text: data[0], onClick: `https://${link}/${data[0]}` }
 }
 
 export const SOCIALS: Record<string, string | string[]> = {
