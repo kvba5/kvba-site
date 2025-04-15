@@ -6,7 +6,7 @@ import languageNames from "@/helpers/languagenames";
 
 
 type RepoData = { name: string, description: string, stars: number, language: string }
-// ["VencordPlugins", "gif-validator", "bunny-plugins", "gm-runtime-browser", "kvba5", "kvba-site"]
+
 const FEATURED_REPOS: RepoData[] = [
     {
         name: "VencordPlugins",
@@ -27,7 +27,7 @@ const FEATURED_REPOS: RepoData[] = [
         stars: 1
     },
     {
-        name: "kvba5",
+        name: "meowabyte",
         description: "My Github's README + animation generating script",
         language: "TypeScript",
         stars: 1

@@ -33,8 +33,8 @@ const formatEntry = (type: string, ...data: string[]): { text: string, onClick: 
 }
 
 export const SOCIALS: Record<string, string | string[]> = {
-    youtube: "@kvba5yt",
-    github: "kvba5",
+    youtube: "@meowabyte",
+    github: "meowabyte",
     bluesky: "meowpa.ws",
     discordServer: "tqssnTUxDR"
 }
@@ -42,8 +42,9 @@ export const SOCIALS: Record<string, string | string[]> = {
 const CONTACT: Record<string, string | string[]> = {
     email: "purr@meowpa.ws",
     discord: [".kb.", "105170831130234880"],
-    telegram: "kvba5",
-    keybase: "kvba0000"
+    telegram: "meowabyte",
+    keybase: "meowabyte",
+    signal: "meowabyte.01"
 }
 
 function SocialLink({ data: [type, data] }: { data: [string, string | string[]] }) {

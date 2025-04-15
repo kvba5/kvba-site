@@ -5,10 +5,10 @@
 In this example I'm gonna use [bun](https://bun.sh/) as a package manager and runtime as well as and [git](https://git-scm.com/) for cloning the repo.
 ```bash
 # Clone repo
-$ git clone https://github.com/kvba5/kvba5.github.io
+$ git clone https://github.com/meowabyte/meowabyte.github.io
 
 # Navigate to the project directory
-$ cd "kvba5.github.io"
+$ cd "meowabyte.github.io"
 
 # Install requirements
 $ bun install
