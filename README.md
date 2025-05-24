@@ -1,5 +1,9 @@
-# meowpa.ws
-[meowpa.ws](https://meowpa.ws) is my personal page written in [Next.js](https://nextjs.org).
+# meowpa.ws (OLD)
+> [!IMPORTANT]
+> This is old version of the website initially written in Next.JS. I decided to port it to Vite+Preact to reduce amount of overhead Next.JS was returning and focus more on client-side of the page!  
+[Link to the current version](https://github.com/meowabyte/meowabyte.github.io)
+
+[meowpa.ws](https://meowpa.ws) is my personal page written in [Next.JS](https://nextjs.org).
 
 ## Development
 In this example I'm gonna use [bun](https://bun.sh/) as a package manager and runtime as well as and [git](https://git-scm.com/) for cloning the repo.
